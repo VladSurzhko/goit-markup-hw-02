@@ -1,73 +1,84 @@
+
+body{
+    font-family:Roboto, sans-serif;
+ }
 .header{
-    font-style: normal;
+    font-family: Raleway;
+font-style: normal;
 font-weight: 800;
 font-size: 18px;
 line-height: calc(24 / 18);
-}
+ }
 .web{
-    font-style: normal;
+    font-family: Raleway;
+font-style: normal;
 font-weight: 800;
 font-size: 18px;
 line-height: calc(24 / 18) ;
-    color: #4D5AE5;
+color: #4D5AE5;
 }
- .body{
-    font-family:Roboto, sans-serif;
- }
- .top{
-    font-weight: 600;
+.top{
+list-style: none;
+font-weight: 500;
 font-size: 16px;
 line-height: calc(24 / 16);
 color:#2E2F42;
- }
+}
 .top :hover{
 color: #434455;
- }
- .top:focus{
-  color:#4D5AE5 ;  
- }
- .contact{
-    color: #434455;
-    font-weight: 400;
+}
+.top:focus{
+color:#4D5AE5 ;  
+}
+.contact{
+    list-style: none;
+color: #434455;
 font-size: 16px;
 line-height: calc(24 / 16)
- }
- .section{
- background:  #2E2F42;
- }
- .section-text{
+}
+.link{
+    text-decoration: none;
+}
+.section{
+background:  #2E2F42;
+}
+.section-text{
 color: #FFFFFF;
-font-weight: 600;
+font-weight: 500;
 font-size: 56px;
 line-height:calc(60/56);
  }
  .section-button{
-    font-weight: 600;
+    font-family: inherit;
+    font-weight: 500;
 font-size: 16px;
 line-height: calc(19/16);
     color: #FFFFFF;
     background: #4D5AE5;
+    cursor: pointer;
+ }
+ .section-button:hover{
+    background: #4D5AE5;
  }
  .text-top{
-   font-weight: 600;
+   font-weight: 500;
 font-size: 20px;
 line-height: calc(24/20);
 color: #2E2F42;
  }
  .text{
-    font-weight: 400;
 font-size: 16px;
 line-height:calc(24/16);
 color: #434455;
  }
  .photo-title{
-    font-weight: 600;
+    font-weight: 500;
 font-size: 36px;
 line-height: calc(40/36);
 color: #2E2F42;
  }
  .team-title{
-    font-weight: 600;
+    font-weight: 500;
 font-size: 36px;
 line-height:calc(40/36) ;
 color: #2E2F42;
@@ -76,13 +87,12 @@ color: #2E2F42;
    background-color:  #F4F4FD;
  }
  .team-text{
-    font-weight: 600;
+    font-weight: 500;
 font-size: 20px;
 line-height: calc(24/20);
 color: #2E2F42;
  }
  .team-prof{
-    font-weight: 400;
 font-size: 16px;
 line-height: calc(24/16);
 color: #434455;
@@ -104,28 +114,34 @@ line-height: calc(24 / 18) ;
     color: #4D5AE5;
  }
  .footer-info{
-    font-weight: 400;
 font-size: 16px;
 line-height: calc(24/16);
 color: #E7E9FC;
  }
  .btn{
+    font-family: inherit;
     background: #F4F4FD;
+    cursor: pointer;
  }
  .btn:focus{
     background: #4D5AE5;
  }
+ .btn:hover{
+    background: #4D5AE5;
+ }
  .discription{
-    font-weight: 600;
+    font-weight: 500;
 font-size: 20px;
 line-height: calc(24/20);
 color: #2E2F42;
  }
  .discription-text{
-    font-weight: 400;
 font-size: 16px;
 line-height: calc(24/16);
 color: #434455;
+ }
+ .style{
+    list-style: none;
  }
 
 
