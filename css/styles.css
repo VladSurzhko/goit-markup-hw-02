@@ -4,14 +4,12 @@ body{
  }
 .header{
     font-family: Raleway;
-font-style: normal;
 font-weight: 800;
 font-size: 18px;
 line-height: calc(24 / 18);
  }
 .web{
     font-family: Raleway;
-font-style: normal;
 font-weight: 800;
 font-size: 18px;
 line-height: calc(24 / 18) ;
@@ -107,7 +105,6 @@ line-height: calc(21/18);
 color: #F4F4FD;
  }
  .footer-web{
-    font-style: normal;
 font-weight: 800;
 font-size: 18px;
 line-height: calc(24 / 18) ;
