@@ -1,13 +1,13 @@
 :root{
-    --white-color:#FFFFFF
-    --gray-color: #2E2F42;
-    --bage-color: #E7E9FC;
+    --white-color:#FFFFFF;
+    --gray-color:#2E2F42;
     --blue-color: #4D5AE5;
+    --bage-color: #E7E9FC;
 }
 
 body{
     font-family:Roboto, sans-serif;
-    background: FFFFFF;
+    background: var(--white-color);
  }
 
 .header{
@@ -21,24 +21,24 @@ line-height: calc(24 / 18);
 font-weight: 800;
 font-size: 18px;
 line-height: calc(24 / 18) ;
-color: #4D5AE5;
+color: var(--blue-color);;
 }
 .top{
 list-style: none;
 font-weight: 500;
 font-size: 16px;
 line-height: calc(24 / 16);
-color:#2E2F42;
+color:var(--gray-color);;
 }
 .top:hover{
 color: #434455;
 }
 .top:focus{
-color:#4D5AE5 ;  
+color:var(--blue-color); ;  
 }
 .contact{
 list-style: none;
-color: #2E2F42;
+color: var(--gray-color);;
 font-size: 16px;
 line-height: calc(24 / 16)
 }
@@ -46,16 +46,16 @@ line-height: calc(24 / 16)
     color: #434455;
 }
 .contact:focus{
-    color: #4D5AE5;
+    color: var(--blue-color);;
 }
 .link{
     text-decoration: none;
 }
 .section{
-background:  #2E2F42;
+background:var(--gray-color);;
 }
 .section-text{
-color: FFFFFF;
+color: var(--white-color);
 font-weight: 500;
 font-size: 56px;
 line-height:calc(60/56);
@@ -65,22 +65,20 @@ line-height:calc(60/56);
     font-weight: 500;
 font-size: 16px;
 line-height: calc(19/16);
-    color: #FFFFFF;
-    background: #4D5AE5;
-    cursor: pointer;
+    color: var(--white-color);
  }
  .section-button:hover{
-    background: #4D5AE5;
+    background: var(--blue-color);;
  }
  .section-button:focus{
-    color: #FFFFFF;
+    color: var(--white-color);
     background: #404BBF;
  }
  .text-top{
    font-weight: 500;
 font-size: 20px;
 line-height: calc(24/20);
-color: #2E2F42;
+color: var(--gray-color);;
  }
  .text{
 font-size: 16px;
@@ -91,13 +89,13 @@ color: #434455;
     font-weight: 500;
 font-size: 36px;
 line-height: calc(40/36);
-color: #2E2F42;
+color: var(--gray-color);;
  }
  .team-title{
     font-weight: 500;
 font-size: 36px;
 line-height:calc(40/36) ;
-color: #2E2F42;
+color: var(--gray-color);;
  }
  .team{
    background-color:  #F4F4FD;
@@ -106,7 +104,7 @@ color: #2E2F42;
     font-weight: 500;
 font-size: 20px;
 line-height: calc(24/20);
-color: #2E2F42;
+color: var(--gray-color);;
  }
  .team-prof{
 font-size: 16px;
@@ -114,7 +112,7 @@ line-height: calc(24/16);
 color: #434455;
  }
  .logo{
-   background:  #2E2F42;
+   background:  var(--gray-color);
  }
  .footer-logo{
 font-weight: 800;
@@ -127,33 +125,33 @@ font-family: Raleway, sans-serif
 font-weight: 800;
 font-size: 18px;
 line-height: calc(24 / 18) ;
-color: #4D5AE5;
+color: var(--blue-color);;
 font-family: Raleway, sans-serif
  }
  .footer-info{
 font-size: 16px;
 line-height: calc(24/16);
-color: #E7E9FC;
+color: var(--bage-color);
  }
  .btn{
-    color: #4D5AE5;;
+    color: var(--blue-color);;;
     font-family: inherit;
     background: #F4F4FD;
     cursor: pointer;
  }
  .btn:focus{
-color: #FFFFFF;
-    background: #4D5AE5;
+color: var(--white-color);
+    background: var(--blue-color);;
  }
  .btn:hover{
-    color: #FFFFFF;;
-    background: #4D5AE5;
+    color: var(--white-color);
+    background: var(--blue-color);;
  }
  .discription{
     font-weight: 500;
 font-size: 20px;
 line-height: calc(24/20);
-color: #2E2F42;
+color: var(--gray-color);;
  }
  .discription-text{
 font-size: 16px;
