@@ -11,7 +11,7 @@ body{
  }
 
 .header{
-    font-family: Raleway, sans-serif;
+font-family: Raleway, sans-serif;
 font-weight: 800;
 font-size: 18px;
 line-height: calc(24 / 18);
@@ -35,25 +35,25 @@ color:var(--gray-color);;
 color: #434455;
 }
 .top:focus{
-color:var(--blue-color); ;  
+color:var(--blue-color);   
 }
 .contact{
 list-style: none;
-color: var(--gray-color);;
+color: var(--gray-color);
 font-size: 16px;
 line-height: calc(24 / 16)
 }
 .contact:hover{
-    color: #434455;
+    color: #4D5AE5;
 }
 .contact:focus{
-    color: var(--blue-color);;
+    color: var(--blue-color);
 }
 .link{
     text-decoration: none;
 }
 .section{
-background:var(--gray-color);;
+background:var(--gray-color);
 }
 .section-text{
 color: var(--white-color);
@@ -142,6 +142,9 @@ color: var(--bage-color);
     font-family: inherit;
     background: #F4F4FD;
     cursor: pointer;
+    ont-weight: 600;
+font-size: 16px;
+line-height:calc(24 / 16);
  }
  .btn:focus{
 color: var(--white-color);
