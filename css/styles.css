@@ -1,7 +1,13 @@
+:root{
+    --white-color:#FFFFFF
+    --gray-color: #2E2F42;
+    --bage-color: #E7E9FC;
+    --blue-color: #4D5AE5;
+}
 
 body{
     font-family:Roboto, sans-serif;
-    background: #FFFFFF;
+    background: FFFFFF;
  }
 
 .header{
@@ -49,7 +55,7 @@ line-height: calc(24 / 16)
 background:  #2E2F42;
 }
 .section-text{
-color: #FFFFFF;
+color: FFFFFF;
 font-weight: 500;
 font-size: 56px;
 line-height:calc(60/56);
